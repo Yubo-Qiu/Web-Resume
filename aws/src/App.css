@@ -47,6 +47,7 @@
   display: flex;
   justify-content: space-around; /* to distribute the buttons evenly across the horizontal axis */
   margin-top: 2rem; /* to move the buttons further down from the above content */
+  margin-bottom: 0.5px;
 }
 
 .tabs-container button {

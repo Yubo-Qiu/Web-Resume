@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 function Rectangle({ title, content, link }) {
   return (
-    <div style={{width: '872px', height: '180px', backgroundColor: 'white', marginBottom: '0px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 20px', position: 'relative'}}>
+    <div style={{width: '872px', height: '180px', backgroundColor: 'white', marginBottom: '0.5px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 20px', position: 'relative'}}>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <h3 style={{position: 'absolute', top: '50px', left: '60px', margin: '0', color: 'black', fontSize: '45px'}}>{title}</h3>
         <div style={{marginTop: '100px', marginLeft: '60px', color: 'black', fontSize: '18px'}}>
