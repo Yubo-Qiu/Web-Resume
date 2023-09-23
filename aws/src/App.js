@@ -11,16 +11,17 @@ import { Link } from 'react-router-dom';
 
 function Rectangle({ title, content, link }) {
   return (
-    <div style={{width: '872px', height: '180px', backgroundColor: 'white', marginBottom: '0.5px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 20px', position: 'relative'}}>
+    <div style={{width: '872px', height: '180px', backgroundColor: 'white', marginBottom: '1px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 20px', position: 'relative'}}>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <h3 style={{position: 'absolute', top: '50px', left: '60px', margin: '0', color: 'black', fontSize: '45px'}}>{title}</h3>
         <div style={{marginTop: '100px', marginLeft: '60px', color: 'black', fontSize: '18px'}}>
           <div style={{textAlign: 'left'}}>
-            {
-              Array.isArray(content) 
-                ? content.map((line, index) => <p key={index}>{line}</p>)
-                : <p>{content}</p>
-            }
+          {
+            Array.isArray(content) 
+              ? content.map((line, index) => <p key={index} style={{margin: '18px 0'}}>{line}</p>) 
+              : <p style={{margin: '8px 0'}}>{content}</p> 
+          }
+
           </div>
         </div>
       </div>
@@ -48,7 +49,7 @@ function WorkExperienceCard() {
   // Render 3 rectangles for the WorkExperienceCard
   return (
     <div>
-      <Rectangle title="Web Developer" content={["At: BUCSSA, Boston University ( February 2023 - Present )", "Skills: Javascript, CSS, React"]} link="/test" />
+      <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( February 2023 - Present )", "Skills: Javascript, CSS, React"]} link="/test" />
       <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5"]} link="/test" />
       <Spaces/>
     </div>
@@ -70,6 +71,7 @@ function ProjectsCard() {
   // Render 4 rectangles for the ProjectsCard
   return (
     <div>
+      <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx"]} link="/test" />
       <Rectangle title="Trigger Phrase Detector" content={["Skills: Python, CNN, Tensorflow"]} link="/test" />
       <Rectangle title="Course Auto-Register" content={["Skills: Python, Selenium"]} link="/test" />
       <Spaces/>
@@ -92,10 +94,10 @@ function App() {
                 <img src={profile} alt="Profile" className="profile-image"/>
                 <p className="profile-name">Yubo Qiu</p>
                 <p className="profile-intro">
-                  Hello, I'm Yubo (仇誉博), <br></br>
-                  a dedicated Computer Science student at Boston University！<br></br>
+                  <strong>Hello,</strong> I'm <strong>Yubo (仇誉博),</strong> <br></br>
+                  a dedicated <strong>Computer Science</strong> student at <strong>Boston University！</strong><br></br>
                   My enthusiasm lies in the fields of <br></br>
-                  Software Engineering and Machine Learning.<br></br>
+                  <strong>Software Engineering</strong> and <strong>Machine Learning.</strong><br></br>
                   These are some of my notable works:
                 </p> 
 

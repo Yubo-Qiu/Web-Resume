@@ -15,9 +15,6 @@ function Navbar() {
                         <img src={logo} alt='Logo' className='navbar-icon' /> {/* moved the img tag before the text */}
                         YUBO'S HOOK
                     </Link>
-                    <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                    </div>
                 </div>
             </nav>
         </>
