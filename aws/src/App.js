@@ -71,7 +71,7 @@ function ProjectsCard() {
   // Render 4 rectangles for the ProjectsCard
   return (
     <div>
-      <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx"]} link="/test" />
+      <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx, Git"]} link="/test" />
       <Rectangle title="Trigger Phrase Detector" content={["Skills: Python, CNN, Tensorflow"]} link="/test" />
       <Rectangle title="Course Auto-Register" content={["Skills: Python, Selenium"]} link="/test" />
       <Spaces/>
