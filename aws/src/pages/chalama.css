@@ -1,0 +1,59 @@
+/* jarvis.css */
+
+body {
+    background-color: #eaeaea; /* Sets the background color to light grey */
+}
+
+/* jarvis.css */
+
+.rectangle-container {
+    width: 872px; /* Width of the rectangle */
+    margin: 10px auto 250px; /* Top and bottom margin */
+    background-color: white;
+    padding-bottom: 150px; /* Bottom padding for the space at the end of the rectangle */
+    box-shadow: 0 0 10px rgba(186, 186, 186, 0.5); /* Optional shadow for depth */
+    box-sizing: border-box; /* Includes padding in the height calculation */
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.rectangle-image {
+    width: 100%; /* Make the image take up 100% of the rectangle-container's width */
+    height: 400px; /* Fix the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+    margin-bottom: 20px; /* Optional: adds some space below the image */
+}
+
+.rectangle-image2 {
+    width: 90%; /* Make the image take up 100% of the rectangle-container's width */
+    height: 400px; /* Fix the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 45px; /* Increased font size for the title */
+    margin: 20px 0; /* Adds space above and below the title */
+    text-align: center; /* Ensures title is centered */
+}
+
+c {
+    color: #000; /* Sets paragraph text color to black */
+    margin: 20px 0; /* Adds space above and below the paragraph */
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 1.3rem; 
+}
+
+bullet{
+    color: #000; /* Sets text color to black */
+    margin: 10px 0; /* Adds space above and below the list item */
+    margin-top: 50px;
+    margin-right: 40px; /* Right margin for list item */
+    margin-left: 40px; /* Left margin for list item */
+    font-size: 30px; /* Sets font size for list item */
+    font-weight: bold; /* Makes text bold */
+}
+
+
+

@@ -13,7 +13,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <Link to="/" className="navbar-logo">
                         <img src={logo} alt='Logo' className='navbar-icon' /> {/* moved the img tag before the text */}
-                        <strong>YUBO's Hook</strong>
+                        <strong>YUBO's HOOK</strong>
                     </Link>
                 </div>
             </nav>

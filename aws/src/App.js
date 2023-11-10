@@ -5,6 +5,11 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import profile from './book.jpg';
 import Test from './test.js';
 import { Link } from 'react-router-dom';
+import Jarvis from './pages/jarvis.js';
+import Ninja from './pages/ninja.js';
+import Resume from './pages/resume.js';
+import Chalama from './pages/chalama.js';
+import Keith from './pages/keith.js';
 
 
 // This is your rectangle component. You can style it as needed.
@@ -50,7 +55,7 @@ function WorkExperienceCard() {
   return (
     <div>
       <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( February 2023 - Present )", "Skills: Javascript, CSS, React"]} link="/test" />
-      <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5"]} link="/test" />
+      <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5"]} link="/Keith" />
       <Spaces/>
     </div>
   );
@@ -60,7 +65,7 @@ function ResearchLabsCard() {
   // Render 2 rectangles for the ResearchLabsCard
   return (
     <div>
-      <Rectangle title="Kolachalama Lab, BU" content={["Role: Front-End Developer", "Skills: Django, Bootstrap 5"]} link="/test" />
+      <Rectangle title="Kolachalama Lab, BU" content={["Role: Front-End Developer", "Skills: Django, Bootstrap 5"]} link="/chalama" />
       <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/test" />
       <Spaces/>
     </div>
@@ -71,9 +76,9 @@ function ProjectsCard() {
   // Render 4 rectangles for the ProjectsCard
   return (
     <div>
-      <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx, Git"]} link="/test" />
-      <Rectangle title="Trigger Phrase Detector" content={["Skills: Python, CNN, Tensorflow"]} link="/test" />
-      <Rectangle title="Course Auto-Register" content={["Skills: Python, Selenium"]} link="/test" />
+      <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx, Git"]} link="/Resume" />
+      <Rectangle title="Trigger Phrase Detector" content={["Skills: Python, CNN, Tensorflow"]} link="/Jarvis" />
+      <Rectangle title="Course Auto-Register" content={["Skills: Python, Selenium"]} link="/Ninja" />
       <Spaces/>
     </div>
   );
@@ -125,6 +130,11 @@ function App() {
           </>
         } />
         <Route path='/test' element={<Test />} />
+        <Route path='/Jarvis' element={<Jarvis />} />
+        <Route path='/Ninja' element={<Ninja />} />
+        <Route path='/Resume' element={<Resume />} />
+        <Route path='/Chalama' element={<Chalama />} />
+        <Route path='/Keith' element={<Keith />} />
       </Routes>
     </Router>
   );
