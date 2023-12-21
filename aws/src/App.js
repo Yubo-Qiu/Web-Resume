@@ -10,6 +10,7 @@ import Ninja from './pages/ninja.js';
 import Resume from './pages/resume.js';
 import Chalama from './pages/chalama.js';
 import Keith from './pages/keith.js';
+import CS411 from './pages/411.js';
 
 
 // This is your rectangle component. You can style it as needed.
@@ -76,6 +77,7 @@ function ProjectsCard() {
   // Render 4 rectangles for the ProjectsCard
   return (
     <div>
+      <Rectangle title="Stock Software" content={["Skills: Javascript, CSS, Astro, Next.js, Firebase"]} link="/411" />
       <Rectangle title="Portfolio Website" content={["Skills: Javascript, CSS, React, AWS, Cloudflare, Nginx, Git"]} link="/Resume" />
       <Rectangle title="Trigger Phrase Detector" content={["Skills: Python, CNN, Tensorflow"]} link="/Jarvis" />
       <Rectangle title="Course Auto-Register" content={["Skills: Python, Selenium"]} link="/Ninja" />
@@ -135,6 +137,7 @@ function App() {
         <Route path='/Resume' element={<Resume />} />
         <Route path='/Chalama' element={<Chalama />} />
         <Route path='/Keith' element={<Keith />} />
+        <Route path='/411' element={<CS411 />} />
       </Routes>
     </Router>
   );

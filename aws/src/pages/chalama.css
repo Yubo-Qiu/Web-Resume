@@ -26,7 +26,7 @@ body {
 
 .rectangle-image2 {
     width: 90%; /* Make the image take up 100% of the rectangle-container's width */
-    height: 400px; /* Fix the height of the image */
+    height: auto; /* Fix the height of the image */
     object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
     margin: 20px auto;
 }

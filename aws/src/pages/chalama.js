@@ -1,11 +1,12 @@
 import React from 'react';
 import './chalama.css'; // Importing the CSS file for styles
 import wav from '../monica.jpg';
+import xue from '../xue.jpg';
 
 function Chalama() {
     return (
         <div className="rectangle-container">
-            <img src={wav} alt="Jarvis" className="rectangle-image" />
+            <img src={xue} alt="Jarvis" className="rectangle-image" /> 
             <h1>Kolachalama Lab</h1>
             <bullet>Descroption:</bullet>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>

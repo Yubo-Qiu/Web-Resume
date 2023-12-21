@@ -2,6 +2,8 @@
 
 body {
     background-color: #eaeaea; /* Sets the background color to light grey */
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../gray.jpg");
+    background-attachment: fixed;
 }
 
 /* jarvis.css */

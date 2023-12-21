@@ -1,11 +1,12 @@
 import React from 'react';
 import './jarvis.css'; // Importing the CSS file for styles
 import wav from '../monica.jpg';
+import jar from '../jarvis.png';
 
 function Jarvis() {
     return (
         <div className="rectangle-container">
-            <img src={wav} alt="Jarvis" className="rectangle-image" />
+            <img src={jar} alt="Jarvis" className="rectangle-image" />
             <h1>Trigger Phrase Detector</h1>
             <bullet>Descroption:</bullet>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>

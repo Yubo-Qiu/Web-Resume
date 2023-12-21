@@ -1,11 +1,12 @@
 import React from 'react';
 import './keith.css'; // Importing the CSS file for styles
 import wav from '../monica.jpg';
+import keith from '../keith.jpg';
 
 function Keith() {
     return (
         <div className="rectangle-container">
-            <img src={wav} alt="Jarvis" className="rectangle-image" />
+            <img src={keith} alt="Jarvis" className="rectangle-image" />
             <h1>Web Assistant</h1>
             <bullet>Descroption:</bullet>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
