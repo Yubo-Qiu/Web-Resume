@@ -1,7 +1,7 @@
 import React from 'react';
 import './chalama.css'; // Importing the CSS file for styles
-import wav from '../monica.jpg';
-import xue from '../xue.jpg';
+import wav from '../images/monica.jpg';
+import xue from '../images/xue.jpg';
 
 function Chalama() {
     return (

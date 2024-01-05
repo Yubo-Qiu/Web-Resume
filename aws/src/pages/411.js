@@ -1,7 +1,7 @@
 import React from 'react';
 import './jarvis.css'; // Importing the CSS file for styles
-import wav from '../monica.jpg';
-import cs411 from '../411.png';
+import wav from '../images/monica.jpg';
+import cs411 from '../images/411.png';
 
 function Stock() {
     return (

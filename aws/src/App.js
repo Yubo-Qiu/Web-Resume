@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import profile from './book.jpg';
+import profile from './images/book.jpg';
 import Test from './test.js';
 import { Link } from 'react-router-dom';
 import Jarvis from './pages/jarvis.js';

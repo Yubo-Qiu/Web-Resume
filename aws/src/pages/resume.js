@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css'; // Importing the CSS file for styles
-import wav from '../monica.jpg';
+import wav from '../images/monica.jpg';
 
 function Resume() {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import './keith.css'; // Importing the CSS file for styles
-import wav from '../monica.jpg';
-import keith from '../keith.jpg';
-import offices from '../offices.png';
-import author from '../author.png';
+import wav from '../images/monica.jpg';
+import keith from '../images/keith.jpg';
+import offices from '../images/offices.png';
+import author from '../images/author.png';
 
 function Keith() {
     return (
