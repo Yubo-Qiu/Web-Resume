@@ -8,7 +8,7 @@ function Jarvis() {
         <div className="rectangle-container">
             <img src={jar} alt="Jarvis" className="rectangle-image" />
             <h1>Trigger Phrase Detector</h1>
-            <bullet>Descroption:</bullet>
+            <bullet>Description:</bullet>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>

@@ -7,7 +7,7 @@ function Resume() {
         <div className="rectangle-container">
             <img src={wav} alt="Jarvis" className="rectangle-image" />
             <h1>Portfolio Website</h1>
-            <bullet>Descroption:</bullet>
+            <bullet>Descri ption:</bullet>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
             <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
