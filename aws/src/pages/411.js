@@ -24,10 +24,11 @@ function Stock() {
             <c>The frontend was engineered using <b>Next.js</b> and <b>Astro</b>, both advanced React frameworks. 
                 Additionally, Google authentication and real-time database functionalities are efficiently handled 
                 through <b>Firebase</b>.</c>
+            <a href="https://github.com/Yubo-Qiu/CS411_Next" className="customlink">Link to the Github repository</a>
             <bullet>Introduction Video:</bullet>
             <c>This project was completed as the capstone for a Software Engineering course. For a brief overview, 
                 please view the accompanying project video here:</c>
-            <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink">Link for the YouTube video</a>
+            <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink">Link to the YouTube video</a>
             <bullet>FrontEnd Specifics:</bullet>
             <c>Initially, the frontend was developed using <b>Astro</b>, but due to limited resources on integrating Firebase 
                 OAuth with Astro, I subsequently transitioned to Next.js for a more seamless implementation.</c>
