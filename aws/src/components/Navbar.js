@@ -16,6 +16,20 @@ function Navbar() {
                         <strong>YUBO's HOOK</strong>
                     </Link>
                 </div>
+                <div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='nav-item'>
+                            <Link to='/test' className='nav-links' onClick={handleClick}>
+                                About
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/test' className='nav-links' onClick={handleClick}>
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </>
     )

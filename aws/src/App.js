@@ -55,8 +55,8 @@ function WorkExperienceCard() {
   // Render 3 rectangles for the WorkExperienceCard
   return (
     <div>
-      <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( February 2023 - Present )", "Skills: Javascript, CSS, React"]} link="/test" />
-      <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5"]} link="/Keith" />
+      <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( Feb. 2023 - Dec. 2023 )", "Skills: Javascript, CSS, React"]} link="/test" />
+      <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5, Siteimprove"]} link="/Keith" />
       <Spaces/>
     </div>
   );
