@@ -28,18 +28,18 @@ function Stock() {
             <c>This project was completed as the capstone for a Software Engineering course. For a brief overview, 
                 please view the accompanying project video here:</c>
             <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink">Link for the YouTube video</a>
-            <bullet>Frontend Specifics:</bullet>
+            <bullet>FrontEnd Specifics:</bullet>
             <c>Initially, the frontend was developed using <b>Astro</b>, but due to limited resources on integrating Firebase 
                 OAuth with Astro, I subsequently transitioned to Next.js for a more seamless implementation.</c>
             <img src={astro} alt="Jarvis" className="rectangle-image4" />
             <c>Following the transition to <b>Next.js</b>, I designed an engaging Introduction-Page, complete with a <b>navigation 
                 bar</b> and <b>footer</b>. </c>
             <img src={nextjs} alt="Jarvis" className="rectangle-image5" />
-            <c>Upon clicking the 'Let's Go' button, users are directed to the Login-Page.</c>
+            <c>Upon clicking the "Let's Go" button, users are directed to the Login-Page.</c>
             <img src={login} alt="Jarvis" className="rectangle-image5" />
             <c>By clicking on the Google logo, users initiate the <b>Google OAuth</b> process, prompting a familiar Google login window to appear for secure authentication.</c>
             <img src={oauth} alt="Jarvis" className="rectangle-image2" />
-            <c>Upon successful authentication, users are directed to the dashboard page, where their Google username is 
+            <c>Upon successful authentication, users are directed to the Dashboard-Page, where their Google username is 
                 automatically retrieved and displayed on the right side. The dashboard features the latest daily stock 
                 graph, dynamically updated using the <b>Alpha Vantage</b> API.</c>
             <img src={dash} alt="Jarvis" className="rectangle-image5" />
