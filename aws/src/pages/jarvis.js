@@ -7,6 +7,11 @@ import nojar from '../images/nojar.png';
 import spec1 from '../images/spec1.png';
 import spec2 from '../images/spec2.png';
 import spec3 from '../images/spec3.png';
+import jmodel from '../images/jmodel.png';
+import para from '../images/para.png';
+import results from '../images/results.png';
+import loss from '../images/loss.png';
+import array from '../images/array.png';
 
 function Jarvis() {
     return (
@@ -45,11 +50,40 @@ function Jarvis() {
             <img src={spec2} alt="Jarvis" className="rectangle-image9" />
             <c>Below are spectrogram examples of words that have phonetic similarities to "Jarvis":</c>
             <img src={spec3} alt="Jarvis" className="rectangle-image9" />
-            <c>zero padding.</c>
-            <bullet>This:</bullet>
-            <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
-            <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
-            <c>This is where your content will go. You can add more content elements inside this container as needed.</c>
+            <c>To <b>reshape</b> the data, given the varying sample lengths, I employed a technique known as <b>zero-padding</b>. 
+                This involves setting a threshold for the clip length. If a sample exceeds this threshold, it's 
+                truncated; if shorter, silence is appended to the end to achieve uniform length across all samples.</c>
+            <c><b>Step 3: CNN</b></c>
+            <c>The <b>Convolutional Neural Network (CNN)</b> is a multi-layered neural network adept at extracting specific visual features 
+                from the provided data, essentially enabling <b>image analysis</b> for this Natural Language Processing (NLP) project. In essence, we're capturing diverse 
+                features of the spectrogram images of the trigger phrase 'Jarvis,' as pronounced in various ways, within the model.</c>
+            <c>Subsequently, I trained the model with 12 epochs, utilizing an architecture comprising 2 convolutional layers, a flatten layer, and 2 dense layers. 
+                Model parameters are detailed below.</c>
+            <img src={jmodel} alt="Jarvis" className="rectangle-image10" />
+            <img src={para} alt="Jarvis" className="rectangle-image10" />
+            <c>Once the model is developed, it's ready for detection tasks. To ensure compatibility, input 
+                audio clips must match the model's input shape. This is achieved by <b>slicing</b> the audio 
+                into uniformly lengthed smaller windows.</c>
+            <bullet>Results:</bullet>
+            <c>I experimented with training the model for 16 epochs, achieving a <b>precision of 1.0</b>, which initially seemed improbable.</c>
+            <img src={results} alt="Jarvis" className="rectangle-image5" />
+            <c>However, the consistent decrease in <b>loss</b> and <b>validation loss</b> suggests that this high precision accurately represents the model's effectiveness.</c>
+            <img src={loss} alt="Jarvis" className="rectangle-image11" />
+            <c>Below are the results from a self-recorded sentence featuring the trigger phrase repeated several times. The model demonstrates <b>impeccable</b> detection 
+            capabilities, as indicated by the '1's in the array, which represent instances where the trigger phrase is recognized.</c>
+            <img src={array} alt="Jarvis" className="rectangle-image10" />
+            <c>Several tests were conducted using various audio files, and consistently, the same high level of detection accuracy was achieved.</c>
+            <bullet>Evaluations:</bullet>
+            <c>This project was executed smoothly and successfully. However, the perfect testing results may hint at <b>overfitting</b>, potentially due to the limited amount of training 
+                data and the fact that the test audio samples were self-recorded with the same voice.</c>
+            <c><b>Data augmentation</b> could serve as a viable strategy to mitigate the risk of overfitting in this project, such as randomly slowing down syllables or adjusting volumes.</c>
+            <c><b>Real-time detection</b> hasn't been implemented due to Colab's limitations in accessing the local microphone. However, there's potential 
+                to export the model and integrate it with a microphone using Jupyter Notebook for live audio processing. However, configuring the environment for this integration could 
+                present some challenges.</c>
+            <bullet>Fun Fact:</bullet>
+            <c>An interesting observation during this project was that the model struggled to recognize the trigger phrase in <b>movie audio clips</b>, even when I clearly articulated it. 
+                This suggests that while human ears can effectively filter out background noises, such as those in Tony Stark's action scenes, computers 
+                might get confused by these complex soundscapes.</c>
         </div>
     );
 }
