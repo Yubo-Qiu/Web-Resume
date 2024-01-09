@@ -84,6 +84,9 @@ function Jarvis() {
             <c>An interesting observation during this project was that the model struggled to recognize the trigger phrase in <b>movie audio clips</b>, even when I clearly articulated it. 
                 This suggests that while human ears can effectively filter out background noises, such as those in Tony Stark's action scenes, computers 
                 might get confused by these complex soundscapes.</c>
+            <bullet>Reference:</bullet>
+            <c>This project greatly benefited from the insights and guidance provided by this video tutorial.</c>
+            <a href="https://www.youtube.com/watch?v=ZLIPkmmDJAc" className="customlink">Link to the YouTube video</a>
         </div>
     );
 }
