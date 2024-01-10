@@ -31,6 +31,14 @@ body {
     margin: 20px auto;
 }
 
+.rectangle-image-ninja2 {
+    width: 50%; /* Make the image take up 100% of the rectangle-container's width */
+    height: auto; /* Fix the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+    margin: 20px auto;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
     font-size: 45px; /* Increased font size for the title */
     margin: 20px 0; /* Adds space above and below the title */
