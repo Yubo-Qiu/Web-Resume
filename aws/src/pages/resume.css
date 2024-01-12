@@ -24,11 +24,28 @@ body {
     margin-bottom: 20px; /* Optional: adds some space below the image */
 }
 
-.rectangle-image2 {
-    width: 90%; /* Make the image take up 100% of the rectangle-container's width */
-    height: 400px; /* Fix the height of the image */
+.rectangle-image-resume2 {
+    width: 70%; /* Make the image take up 100% of the rectangle-container's width */
+    height: auto; /* Fix the height of the image */
     object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
     margin: 20px auto;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rectangle-image-resume3 {
+    width: 90%; /* Make the image take up 100% of the rectangle-container's width */
+    height: auto; /* Fix the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+    margin: 20px auto;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rectangle-image-resume4 {
+    width: 40%; /* Make the image take up 100% of the rectangle-container's width */
+    height: auto; /* Fix the height of the image */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+    margin: 20px auto;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 h1 {

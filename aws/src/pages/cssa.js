@@ -14,7 +14,7 @@ function Cssa() {
             <a href="https://www.bucssa.org/About/About_Jishubu" className="customlink">Link to the BUCSSA official</a>
             <c>In this role, I utilized <b>JavaScript</b>, <b>CSS</b>, and <b>React</b> for front-end development, leveraging these technologies to create dynamic and responsive web pages. 
             The website boasts over <b>300</b> registered users and has garnered a total of <b>67,000</b> views, with a peak transaction rate of <b>2,811</b> per minute.</c>
-            <img src={tpm} alt="Jarvis" className="rectangle-image2" />
+            <img src={tpm} alt="Jarvis" className="rectangle-image-cssa2" />
         </div>
     );
 }

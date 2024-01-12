@@ -29,7 +29,8 @@ function Stock() {
             <c>This project was completed as the capstone for a Software Engineering course. For a brief overview, 
                 please view the accompanying project video here:</c>
             <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink">Link to the YouTube video</a>
-            <bullet>FrontEnd Specifics:</bullet>
+            <bullet>Specifics:</bullet>
+            <c><b>1: Front End</b></c>
             <c>Initially, the frontend was developed using <b>Astro</b>, but due to limited resources on integrating Firebase 
                 OAuth with Astro, I subsequently transitioned to Next.js for a more seamless implementation.</c>
             <img src={astro} alt="Jarvis" className="rectangle-image4" />
@@ -48,7 +49,7 @@ function Stock() {
             <c>Selecting the 'News' button on the navigation bar directs users to the news page, which consistently displays and updates the latest news. This feature 
                 is powered by the <b>NEWS API</b>, ensuring real-time access to current events.</c>
             <img src={news} alt="Jarvis" className="rectangle-image5" />
-            <bullet>Firebase Specifics:</bullet>
+            <c><b>2: Firebase</b></c>
             <c>Both the Google OAuth authentication and the real-time database functionality for this project are seamlessly integrated and supported by <b>Firebase</b>.</c>
             <img src={firebase} alt="Jarvis" className="rectangle-image4" />
             <c><b>Google OAuth</b> was selected as the authentication method for this project. This allows for the monitoring of user activities, including new registrations and logins.</c>
