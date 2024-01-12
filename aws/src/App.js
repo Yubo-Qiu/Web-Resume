@@ -11,6 +11,8 @@ import Resume from './pages/resume.js';
 import Chalama from './pages/chalama.js';
 import Keith from './pages/keith.js';
 import CS411 from './pages/411.js';
+import Cssa from './pages/cssa.js';
+import Eng from './pages/eng.js';
 
 
 // This is your rectangle component. You can style it as needed.
@@ -55,7 +57,7 @@ function WorkExperienceCard() {
   // Render 3 rectangles for the WorkExperienceCard
   return (
     <div>
-      <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( Feb. 2023 - Dec. 2023 )", "Skills: Javascript, CSS, React"]} link="/test" />
+      <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( Feb. 2023 - Dec. 2023 )", "Skills: Javascript, CSS, React, SQL, AWS, Flask"]} link="/CSSA" />
       <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5, Siteimprove"]} link="/Keith" />
       <Spaces/>
     </div>
@@ -66,8 +68,8 @@ function ResearchLabsCard() {
   // Render 2 rectangles for the ResearchLabsCard
   return (
     <div>
-      <Rectangle title="Kolachalama Lab, BU" content={["Role: Front-End Developer", "Skills: Django, Bootstrap 5"]} link="/chalama" />
-      <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/test" />
+      <Rectangle title="Kolachalama Lab, BU" content={["Role: Front-End Developer", "Skills: Django, Bootstrap 5"]} link="/Chalama" />
+      <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/Eng" />
       <Spaces/>
     </div>
   );
@@ -138,6 +140,8 @@ function App() {
         <Route path='/Chalama' element={<Chalama />} />
         <Route path='/Keith' element={<Keith />} />
         <Route path='/411' element={<CS411 />} />
+        <Route path='/Eng' element={<Eng />} />
+        <Route path='/Cssa' element={<Cssa />} />
       </Routes>
     </Router>
   );
