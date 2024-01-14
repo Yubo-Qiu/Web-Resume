@@ -18,6 +18,7 @@ import Eng from './pages/eng.js';
 // This is your rectangle component. You can style it as needed.
 
 function Rectangle({ title, content, link }) {
+
   return (
     <div style={{width: '872px', height: '180px', backgroundColor: 'white', marginBottom: '1px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 20px', position: 'relative'}}>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
@@ -145,7 +146,12 @@ function App() {
       </Routes>
     </Router>
   );
+
+  
 }
 
+
 export default App;
+
+
 
