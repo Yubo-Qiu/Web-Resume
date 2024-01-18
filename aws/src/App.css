@@ -1,5 +1,5 @@
 #hero {
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("./images/monica.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("./monica.jpg");
   min-height: calc(100vh - 80px); /* Adjust the value as needed */
   width: 100vw;
   background-size: cover;
