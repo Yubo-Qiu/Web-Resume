@@ -13,6 +13,8 @@ import Keith from './pages/keith.js';
 import CS411 from './pages/411.js';
 import Cssa from './pages/cssa.js';
 import Eng from './pages/eng.js';
+import Social from './pages/social.js';
+
 
 
 // This is your rectangle component. You can style it as needed.
@@ -69,8 +71,9 @@ function ResearchLabsCard() {
   // Render 2 rectangles for the ResearchLabsCard
   return (
     <div>
-      <Rectangle title="Kolachalama Lab, BU" content={["Role: Front-End Developer", "Skills: Django, Bootstrap 5"]} link="/Chalama" />
-      <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/Eng" />
+      <Rectangle title="Fake News Lab, BU" content={["Role: Full Stack Developer", "Skills: Empirica V2"]} link="/test" />
+      <Rectangle title="Kolachalama Lab, BU" content={["Role: Full Stack Developer", "Skills: Django, Bootstrap 5"]} link="/test" />
+      <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/test" />
       <Spaces/>
     </div>
   );
@@ -143,6 +146,7 @@ function App() {
         <Route path='/411' element={<CS411 />} />
         <Route path='/Eng' element={<Eng />} />
         <Route path='/Cssa' element={<Cssa />} />
+        <Route path='/Social' element={<Social />} />
       </Routes>
     </Router>
   );
