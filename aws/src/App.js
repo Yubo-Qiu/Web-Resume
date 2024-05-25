@@ -9,6 +9,7 @@ import Jarvis from './pages/jarvis.js';
 import Ninja from './pages/ninja.js';
 import Resume from './pages/resume.js';
 import Chalama from './pages/chalama.js';
+import QST from './pages/qst.js';
 import Keith from './pages/keith.js';
 import CS411 from './pages/411.js';
 import Cssa from './pages/cssa.js';
@@ -71,8 +72,8 @@ function ResearchLabsCard() {
   // Render 2 rectangles for the ResearchLabsCard
   return (
     <div>
-      <Rectangle title="Fake News Lab, BU" content={["Role: Full Stack Developer", "Skills: Empirica V2"]} link="/test" />
-      <Rectangle title="Kolachalama Lab, BU" content={["Role: Full Stack Developer", "Skills: Django, Bootstrap 5"]} link="/test" />
+      <Rectangle title="Fake News Lab, MIT/BU" content={["Role: Full Stack Developer", "Skills: Empirica V2"]} link="/QST" />
+      <Rectangle title="Kolachalama Lab, BU" content={["Role: Full Stack Developer", "Skills: Django, Bootstrap 5"]} link="/kolachalama" />
       <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/test" />
       <Spaces/>
     </div>
@@ -141,7 +142,8 @@ function App() {
         <Route path='/Jarvis' element={<Jarvis />} />
         <Route path='/Ninja' element={<Ninja />} />
         <Route path='/Resume' element={<Resume />} />
-        <Route path='/Chalama' element={<Chalama />} />
+        <Route path='/kolachalama' element={<Chalama />} />
+        <Route path='/QST' element={<QST />} />
         <Route path='/Keith' element={<Keith />} />
         <Route path='/411' element={<CS411 />} />
         <Route path='/Eng' element={<Eng />} />
