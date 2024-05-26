@@ -21,9 +21,10 @@ function Jarvis() {
             <bullet>Description:</bullet>
             <c>This project involved developing a detector capable of recognizing a specific trigger phrase, akin 
                 to Siri's activation upon hearing "Hey Siri". In this project, the designated trigger phrase for 
-                activation is "<b>Jarvis!</b>".This functionality was achieved using a <b>Convolutional 
-                Neural Network (CNN)</b> model, which I trained with a self-collected and prepared dataset.</c>
-            <c>The implementation of the CNN was facilitated by leveraging the <b>TensorFlow</b> library in <b>Python</b>.</c>
+                activation is "<b>Jarvis!</b>".</c>
+            <c>This functionality was achieved using a <b>Convolutional Neural Network (CNN)</b> model, which I trained 
+            with a self-collected and prepared dataset. The implementation of the CNN was facilitated by leveraging 
+            the <b>TensorFlow</b> library in <b>Python</b>.</c>
             <a href="https://colab.research.google.com/drive/1Fgw0VdREEPa1XJatgHxUHMqqXEEXrD9q?usp=sharing" className="customlink">Link to the Google Colab</a>
             <bullet>Presentation:</bullet>
             <c>This project was completed as the capstone for a Machine Learning course. For a detailed and engaging overview, please view the 
