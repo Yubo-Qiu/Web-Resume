@@ -18,9 +18,9 @@ function Keith() {
             collapsible elements, and extensive spelling errors.</c>
             <img src={author} alt="Jarvis" className="rectangle-image2" />
             <c>Highlighted below are some of my notable works:</c>
-            <a href="https://www.bu.edu/abroad/accepted-students/pre-departure-pages/" className="customlink">Pre-Departure-Pages</a>
-            <a href="https://www.bu.edu/abroad/accepted-students/pre-departure-pages/fall-2023/usa-los-angeles-internshipfall-2023/" className="customlink">LA-Internship-2023</a>
-            <a href="https://www.bu.edu/abroad/plan/financial-aid/your-free-pass-to-a-passport-grant/" className="customlink">Financial-Aid</a>
+            <a href="https://www.bu.edu/abroad/accepted-students/pre-departure-pages/" className="customlink" target="_blank" rel="noopener noreferrer">Pre-Departure-Pages</a>
+            <a href="https://www.bu.edu/abroad/accepted-students/pre-departure-pages/fall-2023/usa-los-angeles-internshipfall-2023/" className="customlink" target="_blank" rel="noopener noreferrer">LA-Internship-2023</a>
+            <a href="https://www.bu.edu/abroad/plan/financial-aid/your-free-pass-to-a-passport-grant/" className="customlink" target="_blank" rel="noopener noreferrer">Financial-Aid</a>
             <bullet>Specifics:</bullet>
             <c>I primarily work on this WordPress platform below, where I perform various tasks using HTML5. I also regularly perform <b>database maintenance</b> tasks, which include cleaning and purging outdated files.</c>
             <img src={wordp} alt="Jarvis" className="rectangle-image2" />

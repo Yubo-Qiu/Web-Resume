@@ -1,9 +1,10 @@
+/* Hero section */
 #hero {
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("./images/monica.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./images/monica.jpg");
   min-height: calc(100vh - 80px); /* Adjust the value as needed */
   width: 100vw;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   color: #fff;
   position: relative;
   background-attachment: fixed;
@@ -43,6 +44,7 @@
   margin-top: 1.5rem;
 }
 
+/* Tabs */
 .tabs-container {
   display: flex;
   justify-content: space-around; /* to distribute the buttons evenly across the horizontal axis */
@@ -53,8 +55,8 @@
 .tabs-container button {
   width: 300px; /* adjust as needed */
   height: 150px; /* adjust as needed */
-  padding: 10px 20px; 
-  margin: 0 3px; 
+  padding: 10px 20px;
+  margin: 0 3px;
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   color: #fff;
@@ -69,9 +71,32 @@
 }
 
 .tabs-container button:hover {
-  background-color: rgba(255, 255, 255, 0.7); 
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
+/* Triangle and star */
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 51px solid black;
+  border-right: 51px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.star {
+  width: 27px; /* Adjust the width as needed */
+  height: 27px; /* Adjust the height as needed */
+  background-image: url('./images/star.png'); /* Path to your star image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -50px; /* Adjust the top position as needed to fit within the triangle */
+  left: 1px; /* Adjust the left position as needed to fit within the triangle */
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   .profile-intro {
     font-size: 0.8rem; /* Even smaller font size for phone screens */
@@ -90,9 +115,3 @@
     width: 100%;
   }
 }
-
-
-
-
-
-

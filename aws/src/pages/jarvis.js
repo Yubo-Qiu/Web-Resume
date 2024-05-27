@@ -12,6 +12,7 @@ import para from '../images/para.png';
 import results from '../images/results.png';
 import loss from '../images/loss.png';
 import array from '../images/array.png';
+import proposal from '../files/FinalProjectProposal_DS340_S24.pdf'
 
 function Jarvis() {
     return (
@@ -25,11 +26,13 @@ function Jarvis() {
             <c>This functionality was achieved using a <b>Convolutional Neural Network (CNN)</b> model, which I trained 
             with a self-collected and prepared dataset. The implementation of the CNN was facilitated by leveraging 
             the <b>TensorFlow</b> library in <b>Python</b>.</c>
-            <a href="https://colab.research.google.com/drive/1Fgw0VdREEPa1XJatgHxUHMqqXEEXrD9q?usp=sharing" className="customlink">Link to the Google Colab</a>
+            <a href="https://colab.research.google.com/drive/1Fgw0VdREEPa1XJatgHxUHMqqXEEXrD9q?usp=sharing" className="customlink" target="_blank" rel="noopener noreferrer">Link to the Google Colab</a>
+            <c>This project was completed as the capstone for the Machine Learning course <b>CDS DS 340</b>. It was selected by <a href="https://www.bu.edu/cds-faculty/profile/klgold/" target="_blank" rel="noopener noreferrer">Professor Kevin Gold</a> to 
+                be featured as a <b>sample project</b> in the project proposal, specifically as the first entry in the elevator pitch section. Below is the final project proposal for Spring 2024.</c>
+                <a href={proposal} className="customlink" target="_blank" rel="noopener noreferrer">Link to view the Proposal</a>
             <bullet>Presentation:</bullet>
-            <c>This project was completed as the capstone for a Machine Learning course. For a detailed and engaging overview, please view the 
-                accompanying project presentation here:</c>
-            <a href="https://docs.google.com/presentation/d/14EybCiuEQVuVBp2L3fb6xRdk3RCr9xwJ0mJ3-N2tMDU/edit?usp=sharing" className="customlink">Link to the Google Slides</a>
+            <c>For a detailed and engaging overview, please view the accompanying project presentation here:</c>
+            <a href="https://docs.google.com/presentation/d/14EybCiuEQVuVBp2L3fb6xRdk3RCr9xwJ0mJ3-N2tMDU/edit?usp=sharing" className="customlink" target="_blank" rel="noopener noreferrer">Link to the Google Slides</a>
             <bullet>Methods:</bullet>
             <c><b>Step 1: Data collection</b></c>
             <c>Initially, I gathered around <b>400</b> voice clips from approximately <b>20</b> individuals, featuring either the trigger phrase 
@@ -87,7 +90,7 @@ function Jarvis() {
                 might get confused by these complex soundscapes.</c>
             <bullet>Reference:</bullet>
             <c>This project greatly benefited from the insights and guidance provided by this video tutorial.</c>
-            <a href="https://www.youtube.com/watch?v=ZLIPkmmDJAc" className="customlink">Link to the YouTube video</a>
+            <a href="https://www.youtube.com/watch?v=ZLIPkmmDJAc" className="customlink" target="_blank" rel="noopener noreferrer">Link to the YouTube video</a>
         </div>
     );
 }

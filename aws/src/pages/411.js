@@ -24,11 +24,11 @@ function Stock() {
             <c>The frontend was engineered using <b>Next.js</b> and <b>Astro</b>, both advanced React frameworks. 
                 Additionally, Google authentication and real-time database functionalities are efficiently handled 
                 through <b>Firebase</b>.</c>
-            <a href="https://github.com/Yubo-Qiu/CS411_Next" className="customlink">Link to the Github repository</a>
+            <a href="https://github.com/Yubo-Qiu/CS411_Next" className="customlink" target="_blank" rel="noopener noreferrer">Link to the Github repository</a>
             <bullet>Introduction Video:</bullet>
             <c>This project was completed as the capstone for a Software Engineering course. For a brief overview, 
                 please view the accompanying project video here:</c>
-            <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink">Link to the YouTube video</a>
+            <a href="https://www.youtube.com/watch?v=qo3r48sLYGI" className="customlink" target="_blank" rel="noopener noreferrer">Link to the YouTube video</a>
             <bullet>Specifics:</bullet>
             <c><b>1: Front End</b></c>
             <c>Initially, the frontend was developed using <b>Astro</b>, but due to limited resources on integrating Firebase 
@@ -54,7 +54,7 @@ function Stock() {
             <img src={firebase} alt="Jarvis" className="rectangle-image4" />
             <c><b>Google OAuth</b> was selected as the authentication method for this project. This allows for the monitoring of user activities, including new registrations and logins.</c>
             <img src={authen} alt="Jarvis" className="rectangle-image6" />
-            <c>The <b>real-time database</b> is configured to store the user's email address and username. When a new account is created, it automatically captures and stores the user's 
+            <c>The <b>real-time NoSQL cloud database</b> is configured to store the user's email address and username. When a new account is created, it automatically captures and stores the user's 
                 Google email address and username as part of the OAuth authentication process.</c>
             <img src={db} alt="Jarvis" className="rectangle-image3" />
         </div>
