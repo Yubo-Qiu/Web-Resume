@@ -19,7 +19,7 @@ function QST() {
                 The team has secured a <b>$550,000</b> grant from the <b>National Science Foundation</b> (NSF). </c>
             <c>In this team, my role is that of a full-stack developer. My primary responsibility is using <b>Google Cloud</b> and <b>Empirica</b>, which is built on <b>JavaScript</b> and <b>React</b>, to develop the experimental application platform. This platform is a multiplayer game designed to simulate a real-world market and collect data to support 
                 our thesis. More details about this lab can be seen <a href="https://www.bu.edu/cds-faculty/2023/10/06/bu-professors-earn-nsf-grant-for-data-science-project-fighting-online-misinformation/" target="_blank" rel="noopener noreferrer">here</a>.</c>
-            <c>The game is hosted now on Google Cloud at <a href="https://web.mit.edu/marshall/www/home.html" target="_blank" rel="noopener noreferrer">truthmarket.com</a>. Please check it out!</c>
+            <c>The game is hosted now on Google Cloud at <a href="https://truthmarket.com/" target="_blank" rel="noopener noreferrer">truthmarket.com</a>. Please check it out!</c>
             <bullet>Publishment:</bullet>
             <c>Our extended abstract has been accepted by <a href="https://www.ic2s2.org" target="_blank" rel="noopener noreferrer">IC2S2</a>, and the conference will be held in July 2024 in Philadelphia.</c>
             <a href="https://openreview.net/forum?id=JYTC9tgSHT" className="customlink" target="_blank" rel="noopener noreferrer">Link to View the Abstract</a>
