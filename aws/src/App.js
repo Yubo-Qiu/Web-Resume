@@ -69,7 +69,7 @@ function WorkExperienceCard() {
 function ResearchLabsCard() {
   return (
     <div>
-      <Rectangle title="Fake News Lab, MIT/BU" content={["Role: Full Stack Developer", "Skills: Empirica V2"]} link="/QST" triangle={true} />
+      <Rectangle title="Fake News Lab, MIT/BU" content={["Role: Full Stack Developer", "Skills: Empirica V2, Javascript, CSS, React, Google Cloud"]} link="/QST" triangle={true} />
       <Rectangle title="Kolachalama Lab, BU" content={["Role: Full Stack Developer", "Skills: Django, Bootstrap 5"]} link="/kolachalama" triangle={false} />
       <Rectangle title="Security Lab, BU" content={["Role: Machine Learning Developer", "Skills: Python, Okapi BM25"]} link="/test" triangle={false} />
       <Spaces />
