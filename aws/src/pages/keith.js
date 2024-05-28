@@ -9,9 +9,9 @@ function Keith() {
     return (
         <div className="rectangle-container">
             <img src={keith} alt="Jarvis" className="rectangle-image" />
-            <h1>Web Assistant</h1>
+            <h1>Website Developer</h1>
             <bullet>Description:</bullet>
-            <c>I serve as a web assistant, managing the official websites for five distinct offices: <b>Global Programs</b>, Study Abroad, International Students and Scholars Office (ISSO), 
+            <c>I serve as a web developer, managing the official websites for five distinct offices: Global Programs, Study Abroad, International Students and Scholars Office (ISSO), 
                 Center for English Language & Orientation Programs (CELOP), and the Global Office. I have been employed in my current role since June 2022 and continue to serve in this capacity.</c>
             <img src={offices} alt="Jarvis" className="rectangle-image3" />
             <c>My core responsibilities encompass the creation and maintenance of over <b>200</b> web pages using <b>WordPress</b> and <b>HTML5</b>, alongside meticulous troubleshooting to resolve issues including broken links, malfunctioning 

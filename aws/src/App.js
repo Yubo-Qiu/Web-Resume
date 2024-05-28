@@ -60,7 +60,7 @@ function WorkExperienceCard() {
     <div>
       <Rectangle title="NPO Founder" content={["At: Hungarian Non-profit Orgnization ( under registration stage )", "Skills: N/A"]} link="/test" triangle={true} />
       <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( Feb. 2023 - Dec. 2023 )", "Skills: Javascript, CSS, React, SQL, AWS, Flask"]} link="/CSSA" triangle={false} />
-      <Rectangle title="Web Assistant" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5, Siteimprove"]} link="/Keith" triangle={false} />
+      <Rectangle title="Website Developer" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5, Siteimprove"]} link="/Keith" triangle={false} />
       <Spaces />
     </div>
   );
