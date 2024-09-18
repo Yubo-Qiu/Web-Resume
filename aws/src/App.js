@@ -15,6 +15,7 @@ import CS411 from './pages/411.js';
 import Cssa from './pages/cssa.js';
 import Eng from './pages/eng.js';
 import Social from './pages/social.js';
+import Sail from './pages/sail.js';
 import star from './images/star.png';
 
 // This is your rectangle component. You can style it as needed.
@@ -58,6 +59,7 @@ function Spaces({ title, content }) {
 function WorkExperienceCard() {
   return (
     <div>
+      <Rectangle title="Full Stack Developer" content={["At: Hariri Institute for Computing ( Jun. 2024 - Aug. 2024 )", "Skills: Kubernetes, Docker, Next.js, Flask, AWS, GraphQL"]} link="/Sail" triangle={true} />
       <Rectangle title="NPO Founder" content={["At: Hungarian Non-profit Orgnization ( under registration stage )", "Skills: N/A"]} link="/test" triangle={true} />
       <Rectangle title="Full Stack Developer" content={["At: BUCSSA, Boston University ( Feb. 2023 - Dec. 2023 )", "Skills: Javascript, CSS, React, SQL, AWS, Flask"]} link="/CSSA" triangle={false} />
       <Rectangle title="Website Developer" content={["At: Global Programs, Boston University ( June 2022 - Present )", "Skills: Wordpress, HTML5, Siteimprove"]} link="/Keith" triangle={false} />
@@ -103,7 +105,7 @@ function App() {
                 <img src={profile} alt="Profile" className="profile-image"/>
                 <p className="profile-name">Yubo Qiu</p>
                 <p className="profile-intro">
-                  <strong>Hello,</strong> I'm <strong>Yubo (仇誉博),</strong> <br></br>
+                  <strong>Hello,</strong> I'm <strong>Yubo,</strong> <br></br>
                   a dedicated <strong>Computer Science</strong> student at <strong>Boston University！</strong><br></br>
                   My enthusiasm lies in the fields of <br></br>
                   <strong>Software Engineering</strong> and <strong>Machine Learning.</strong><br></br>
@@ -144,6 +146,7 @@ function App() {
         <Route path='/Eng' element={<Eng />} />
         <Route path='/Cssa' element={<Cssa />} />
         <Route path='/Social' element={<Social />} />
+        <Route path='/Sail' element={<Sail />} />
       </Routes>
     </Router>
   );
